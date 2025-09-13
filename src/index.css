@@ -7,34 +7,34 @@
 
 @layer base {
   :root {
-    /* Base Colors - Light Theme (Cyberpunk Light) */
-    --background: 210 25% 98%;
-    --foreground: 220 15% 15%;
+    /* Base Colors - Light Theme (Improved Contrast) */
+    --background: 0 0% 100%;
+    --foreground: 220 15% 10%;
     
-    /* Cyberpunk Color Palette */
-    --cyber-violet: 280 100% 70%;
-    --cyber-cyan: 180 100% 50%;
-    --cyber-pink: 320 100% 65%;
-    --cyber-green: 120 100% 50%;
-    --cyber-orange: 30 100% 60%;
+    /* Cyberpunk Color Palette - Toned Down */
+    --cyber-violet: 280 60% 55%;
+    --cyber-cyan: 180 80% 45%;
+    --cyber-pink: 320 70% 55%;
+    --cyber-green: 120 70% 45%;
+    --cyber-orange: 30 80% 55%;
     
     /* Primary Gradient System */
-    --primary: 280 100% 70%;
-    --primary-foreground: 210 25% 98%;
-    --primary-glow: 280 100% 80%;
+    --primary: 280 60% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 280 60% 65%;
     
     /* Glass Morphism */
-    --glass-bg: 210 25% 98% / 0.1;
-    --glass-border: 210 25% 85% / 0.2;
-    --glass-shadow: 220 15% 15% / 0.1;
+    --glass-bg: 220 15% 15% / 0.05;
+    --glass-border: 280 60% 55% / 0.15;
+    --glass-shadow: 220 15% 15% / 0.08;
     
     /* Interactive States */
-    --secondary: 210 25% 92%;
-    --secondary-foreground: 220 15% 25%;
-    --muted: 210 25% 88%;
-    --muted-foreground: 220 10% 45%;
-    --accent: 180 100% 50%;
-    --accent-foreground: 210 25% 98%;
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 15% 20%;
+    --muted: 220 15% 90%;
+    --muted-foreground: 220 10% 40%;
+    --accent: 180 80% 45%;
+    --accent-foreground: 0 0% 100%;
     
     /* Neon Effects */
     --neon-primary: 280 100% 70%;

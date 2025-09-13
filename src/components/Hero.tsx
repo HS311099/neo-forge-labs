@@ -88,7 +88,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-bold mb-6 leading-tight"
+            className="text-3xl md:text-5xl lg:text-6xl font-orbitron font-bold mb-6 leading-tight"
           >
             <span className="block text-foreground">Crafting</span>
             <span className="block cyber-gradient-text neon-text">
@@ -108,7 +108,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed"
+            className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed"
           >
             Multi-domain expertise in{' '}
             <span className="text-cyber-violet font-semibold">AI & Machine Learning</span>,{' '}
